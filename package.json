@@ -1,0 +1,22 @@
+{
+  "name": "incentive-me.github.io",
+  "version": "1.0.0",
+  "description": "This is a [Helm](https://helm.sh) charts repository for Kubernetes made by @incentive-me.",
+  "main": "index.js",
+  "scripts": {
+    "package": "npm run nifi",
+    "index": "helm repo index charts",
+    "nifi": "helm package ./../helm-nifi -u -d charts/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incentive-me/incentive-me.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/incentive-me/incentive-me.github.io/issues"
+  },
+  "homepage": "https://github.com/incentive-me/incentive-me.github.io#readme"
+}
