@@ -7,7 +7,7 @@ This is a [Helm](https://helm.sh) charts repository for Kubernetes made by @ince
 To install the [incentive-me](https://incentive.me) repo just run:
 
 ```bash
-helm repo add incentive-me https://incentive-me.github.io
+helm repo add incentive-me https://incentive-me.github.io/charts
 helm repo update
 ```
 
