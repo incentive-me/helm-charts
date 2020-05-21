@@ -6,7 +6,8 @@
   "scripts": {
     "package": "npm run nifi",
     "index": "helm repo index charts",
-    "nifi": "helm package ./../helm-nifi -u -d charts/"
+    "nifi": "helm package ./../helm-nifi -u -d charts/",
+    "push-nifi": "git add . && git commit -m 'Update nifi' && git push"
   },
   "repository": {
     "type": "git",
